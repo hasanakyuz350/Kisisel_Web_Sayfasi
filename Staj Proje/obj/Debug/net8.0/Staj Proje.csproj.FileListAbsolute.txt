@@ -1,0 +1,29 @@
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\appsettings.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.staticwebassets.runtime.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.staticwebassets.endpoints.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.exe
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.deps.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.runtimeconfig.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\Staj Proje.pdb
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.AssemblyInfoInputs.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.AssemblyInfo.cs
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.csproj.CoreCompileInputs.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.RazorAssemblyInfo.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.RazorAssemblyInfo.cs
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\bundle\Staj Proje.styles.css
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\projectbundle\Staj Proje.bundle.scp.css
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\refint\Staj Proje.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.pdb
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.genruntimeconfig.cache
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\ref\Staj Proje.dll
