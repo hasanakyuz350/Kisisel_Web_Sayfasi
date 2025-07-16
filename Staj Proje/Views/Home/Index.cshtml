@@ -1,8 +1,61 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model HomeProjecTViewModels
+@{
+    ViewData["Title"] = "Hasan Akyüz";
 }
+<article>
+    <div>
+        <div>
+            <h1>Sayfama Hos Geldiniz</h1>
+            <h3>@Model.homemodel.TiTle</h3>
+            <h4>@Model.homemodel.subTiTle</h4>
+            <h5>@Model.homemodel.shortabouTme</h5>
+            <a href="/Home/AbouTMe">Daha Fazla</a>
+        </div>
+    </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div>
+        <h1>Eklenen Son Projem</h1>
+        @if (Model.mylasTprojecT != null)
+        {
+            <a href="#">
+                <img src="/image/ben.jpg" />
+            </a>
+            <h3>@Model.mylasTprojecT.TiTle</h3>
+            <p>@Model.mylasTprojecT.shorTdecripTion</p>
+        }
+        <button type="submit">Daha Fazla</button>
+    </div>
+
+    <div>
+        <h1>Bazı Yapılan Projelerim</h1>
+        @foreach (var myprojecT in Model.myprojecTmodel)
+        {
+            <a href="#">
+                <img src="/image/ben.jpg" />
+            </a>
+            <h3>@myprojecT.TiTle</h3>
+            <p>@myprojecT.shorTdecripTion</p>
+        }
+        <button type="submit">Daha Fazla</button>
+    </div>
+
+    <div>
+        <h1>Ben Kimim?</h1>
+        <img src="/image//ben.jpg" />
+        <p>@Model.homemodel.shortabouTme</p>
+        <a href="#">Daha Fazla</a>
+    </div>
+</article>
+
+<aside>
+    <div>
+        <h1>Sosyala Medya Hesaplarım</h1>
+        <a href="https://github.com/hasanakyuz350">
+            <img src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+        </a>
+        <a href="https://www.linkedin.com/in/hasan-akyuz/">
+            <img src="/image/LinkedIn.png" alt="LinkedIn" title="LinkedIn">
+        </a>
+        <a href="#">Bana E-mail gönder</a>
+    </div>
+</aside>

@@ -1,0 +1,43 @@
+﻿@model AbouTMeModels
+@{
+    ViewData["Title"] = "Hasan Akyüz";
+}
+<article>
+    <div>
+        <h1>Ben Kimim?</h1>
+        <img src="/image//ben.jpg" />
+        <p>@Model.abouTme</p>
+    </div>
+
+    <div>
+        <div>
+            <h1>Kariyerim Hakkında</h1>
+            <p>@Model.myBiography</p>
+        </div>
+        <div>
+            <a href="/MyprojecT/Index">Projelerimi Görmeye Ne Dersiniz?</a>
+        </div>
+    </div>
+
+    <div>
+        <h1>YeTeneklerim</h1>
+        @foreach (var myTalenT in Model.myTalenT)
+        {
+            <h3>@myTalenT</h3>
+        }
+        <button type="submit">Daha Fazla</button>
+    </div>
+</article>
+
+<aside>
+    <div>
+        <h1>Sosyala Medya Hesaplarım</h1>
+        <a href="https://github.com/hasanakyuz350">
+            <img src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+        </a>
+        <a href="https://www.linkedin.com/in/hasan-akyuz/">
+            <img src="/image/LinkedIn.png" alt="LinkedIn" title="LinkedIn">
+        </a>
+        <a href="#">Bana E-mail gönder</a>
+    </div>
+</aside>

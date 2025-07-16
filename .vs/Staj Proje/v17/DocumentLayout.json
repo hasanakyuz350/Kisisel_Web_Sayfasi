@@ -1,12 +1,38 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Program.cs",
+              "RelativeDocumentMoniker": "Staj Proje\\Program.cs",
+              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Program.cs",
+              "RelativeToolTip": "Staj Proje\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:39:31.567Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
