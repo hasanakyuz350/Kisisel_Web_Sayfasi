@@ -1,0 +1,46 @@
+﻿@model List<MyprojecTModels>
+@{
+    ViewData["Title"] = "Hasan Akyüz";
+}
+<article>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>proje</th>
+                <th>Bu Proje Nedir</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                @foreach (var m in Model)
+                {
+                    <td>@m.projecTID</td>
+                    <td>@m.projecTImageURl</td>
+                    <td>@m.TiTle</td>
+                    <td>@m.shorTdecripTion</td>
+                    <td>
+                        <form asp-controller="MyprojecTs" asp-action="ProjecTdeTail" method="get">
+                            <input type="hidden" name="myprojecTID" value="@m.projecTID" />
+                            <button type="submit">Daha Fazla</button>
+                        </form>
+                    </td>
+                }
+            </tr>
+        </tbody>
+    </table>
+</article>
+
+<aside>
+    <div>
+        <a href="https://github.com/hasanakyuz350">
+            <img id="ikon"
+                 src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+        </a>
+        <a href="https://www.linkedin.com/in/hasan-akyuz/">
+            <img id="ikon" src="/image/LinkedIn.png"
+                 alt="LinkedIn" title="LinkedIn">
+        </a>
+    </div>
+</aside>

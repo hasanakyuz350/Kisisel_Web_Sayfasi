@@ -1,0 +1,60 @@
+﻿@model CommenTmyprojecTModels
+@{
+    ViewData["Title"] = "Hasan Akyüz";
+}
+<article>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>CaTegoriy</th>
+                <th>proje</th>
+                <th>Bu Proje Nedir</th>
+                <th>Projeyi Kullan</th>
+                <th>Demo Izle</th>
+                <th> Yapılan Yorum</th>
+                <th>Yorum Yap</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.myprojecT.projecTImageURl</td>
+                <td>@Model.myprojecT.caTegory</td>
+                <td>@Model.myprojecT.TiTle</td>
+                <td>@Model.myprojecT.descripTion</td>
+                <td>@Model.myprojecT.giThublink</td>
+                <td>@Model.myprojecT.demolink</td>
+                <td>
+                    @foreach (var commen in Model.commenTs)
+                    {
+                        <p>@commen.auThorname</p>
+                        <p>@commen.auThorsurname</p>
+                        <p>@commen.auThormessage</p>
+                        <p>@commen.wriTeTime</p>
+                    }
+                <td>
+                    <form asp-controller="MyprojecTs" asp-action="ProjecTdeTail" method="post">
+                        <input type="hidden" name="projecTID" value="@Model.myprojecT.projecTID" />
+                        <ul><input type="text" name="CommenTs.auThorname" value="@Model.CommenTs.auThorname" /> Isim</ul>
+                        <ul><input type="text" name="CommenTs.auThorsurname" value="@Model.CommenTs.auThorsurname" /> Soyisim</ul>
+                        <ul><input type="email" name="CommenTs.auThormail" value="@Model.CommenTs.auThormail" />  Mail</ul>
+                        <ul><input type="text" name="CommenTs.auThormessage" value="@Model.CommenTs.auThormessage" />  Mesaj</ul>
+                        <button type="submit">Gönder</button>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</article>
+
+<aside>
+    <div>
+        <a href="https://github.com/hasanakyuz350">
+            <img src="image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+        </a>
+        <a href="https://www.linkedin.com/in/hasan-akyuz/">
+            <img src="image/LinkedIn.png"
+                 alt="LinkedIn" title="LinkedIn">
+        </a>
+    </div>
+</aside>

@@ -22,6 +22,65 @@ namespace Staj_Proje.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Staj_Proje.EnTiTy.AbouTMe", b =>
+                {
+                    b.Property<int>("abouTmeID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("abouTmeID"));
+
+                    b.Property<DateTime?>("UpdaTeTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("abouTme")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("myBiography")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("mybiographyURL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("mypicTureURL")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("abouTmeID");
+
+                    b.ToTable("abouTMes");
+                });
+
+            modelBuilder.Entity("Staj_Proje.EnTiTy.CaTegory", b =>
+                {
+                    b.Property<int>("caTegoryID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("caTegoryID"));
+
+                    b.Property<DateTime?>("UpdaTeTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("abouTmeID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("caTegoryname")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("mayDeleTed")
+                        .HasColumnType("bit");
+
+                    b.HasKey("caTegoryID");
+
+                    b.HasIndex("abouTmeID");
+
+                    b.ToTable("caTegories");
+                });
+
             modelBuilder.Entity("Staj_Proje.EnTiTy.CommenT", b =>
                 {
                     b.Property<int>("commeTID")
@@ -30,13 +89,15 @@ namespace Staj_Proje.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("commeTID"));
 
-                    b.Property<bool>("IsApproved")
-                        .HasColumnType("bit");
+                    b.Property<string>("adminbackcommenT")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("IsDeleTed")
-                        .HasColumnType("bit");
+                    b.Property<string>("auThormail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("admnbackcommenT")
+                    b.Property<string>("auThormessage")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("auThorname")
@@ -47,7 +108,10 @@ namespace Staj_Proje.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("projecTID1")
+                    b.Property<bool>("mayDeleTed")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("projecTID")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("wriTeTime")
@@ -55,9 +119,9 @@ namespace Staj_Proje.Migrations
 
                     b.HasKey("commeTID");
 
-                    b.HasIndex("projecTID1");
+                    b.HasIndex("projecTID");
 
-                    b.ToTable("commenT");
+                    b.ToTable("commenTs");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.ConTacT", b =>
@@ -68,14 +132,11 @@ namespace Staj_Proje.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("conTacTID"));
 
-                    b.Property<DateTime?>("AnswercommenT")
+                    b.Property<DateTime?>("answercommenTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("IPAddress")
+                    b.Property<string>("auThorIP")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsRead")
-                        .HasColumnType("bit");
 
                     b.Property<string>("email")
                         .IsRequired()
@@ -102,16 +163,16 @@ namespace Staj_Proje.Migrations
 
                     b.HasKey("conTacTID");
 
-                    b.ToTable("conTacT");
+                    b.ToTable("conTacTss");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.Home", b =>
                 {
-                    b.Property<int>("mainpage_abouTmeID")
+                    b.Property<int>("homeID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("mainpage_abouTmeID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("homeID"));
 
                     b.Property<string>("ImageURL")
                         .HasColumnType("nvarchar(max)");
@@ -138,9 +199,9 @@ namespace Staj_Proje.Migrations
                     b.Property<DateTime>("updaTeTime")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("mainpage_abouTmeID");
+                    b.HasKey("homeID");
 
-                    b.ToTable("mainpage_abouTme");
+                    b.ToTable("homes");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.MyprojecT", b =>
@@ -151,21 +212,11 @@ namespace Staj_Proje.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("projecTID"));
 
-                    b.Property<int?>("Homemainpage_abouTmeID")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsApproved")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsDeleTed")
-                        .HasColumnType("bit");
-
                     b.Property<string>("TiTle")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("caTegory")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("demolink")
@@ -177,6 +228,12 @@ namespace Staj_Proje.Migrations
 
                     b.Property<string>("giThublink")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("homeID")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("mayDeleTed")
+                        .HasColumnType("bit");
 
                     b.Property<string>("projecTImageURl")
                         .IsRequired()
@@ -191,27 +248,47 @@ namespace Staj_Proje.Migrations
 
                     b.HasKey("projecTID");
 
-                    b.HasIndex("Homemainpage_abouTmeID");
+                    b.HasIndex("homeID");
 
-                    b.ToTable("myprojecT");
+                    b.ToTable("myprojecTs");
+                });
+
+            modelBuilder.Entity("Staj_Proje.EnTiTy.CaTegory", b =>
+                {
+                    b.HasOne("Staj_Proje.EnTiTy.AbouTMe", "AbouTMe")
+                        .WithMany("myTalenT")
+                        .HasForeignKey("abouTmeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AbouTMe");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.CommenT", b =>
                 {
-                    b.HasOne("Staj_Proje.EnTiTy.MyprojecT", "projecTID")
+                    b.HasOne("Staj_Proje.EnTiTy.MyprojecT", "MyprojecT")
                         .WithMany("commenT")
-                        .HasForeignKey("projecTID1")
+                        .HasForeignKey("projecTID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("projecTID");
+                    b.Navigation("MyprojecT");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.MyprojecT", b =>
                 {
-                    b.HasOne("Staj_Proje.EnTiTy.Home", null)
+                    b.HasOne("Staj_Proje.EnTiTy.Home", "Home")
                         .WithMany("mylasTprojecT")
-                        .HasForeignKey("Homemainpage_abouTmeID");
+                        .HasForeignKey("homeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Home");
+                });
+
+            modelBuilder.Entity("Staj_Proje.EnTiTy.AbouTMe", b =>
+                {
+                    b.Navigation("myTalenT");
                 });
 
             modelBuilder.Entity("Staj_Proje.EnTiTy.Home", b =>

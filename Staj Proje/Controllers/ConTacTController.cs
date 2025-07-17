@@ -4,7 +4,7 @@ namespace Staj_Proje.Controllers
 {
     public class ConTacTConTroller : Controller
     {
-        public IActionResult Index()
+        public IActionResult conTexTIndex()
         {
             return View();
         }

@@ -14,8 +14,7 @@ namespace Staj_Proje.EnTiTy
         public string message { get; set; }
         public DateTime senTTime { get; set; }
         //admin
-        public string? IPAddress { get; set; }
-        public bool IsRead { get; set; }
-        public DateTime? AnswercommenT { get; set; }
+        public string? auThorIP { get; set; }
+        public DateTime? answercommenTime { get; set; }
     }
 }

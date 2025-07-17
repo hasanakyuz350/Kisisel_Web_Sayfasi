@@ -3,7 +3,7 @@ using Staj_Proje.DaTa;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<dbconTexT>(opTions => opTions.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"), sqlOptions => sqlOptions.EnableRetryOnFailure()));
+builder.Services.AddDbContext<dbconTexT>(opTions => opTions.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

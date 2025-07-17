@@ -16,18 +16,18 @@ namespace Staj_Proje.Controllers
 
         public IActionResult Index()
         {
-            var enTiTy_abaouTme = conTexT.mainpage_abouTme.Select(m => new HomeModels
+            var enTiTy_abaouTme = conTexT.homes.Select(m => new HomeModels
             {
                 TiTle = m.TiTle,
                 subTiTle = m.subTiTle,
                 shortabouTme = m.shortabouTme,
             }).FirstOrDefault();
-            var enTiTy_myprojecT = conTexT.myprojecT.OrderBy(m => m.projecTID).Take(3).Select(m => new MyprojecTModels
+            var enTiTy_myprojecT = conTexT.myprojecTs.OrderBy(m => m.projecTID).Take(3).Select(m => new MyprojecTModels
             {
                 TiTle = m.TiTle,
                 shorTdecripTion = m.shorTdecripTion
             }).ToList();
-            var enTiTy_mylasTprojecT = conTexT.myprojecT.OrderByDescending(m => m.projecTID).Select(m => new MyprojecTModels
+            var enTiTy_mylasTprojecT = conTexT.myprojecTs.OrderByDescending(m => m.projecTID).Select(m => new MyprojecTModels
             {
                 TiTle = m.TiTle,
                 shorTdecripTion = m.shorTdecripTion
@@ -45,13 +45,17 @@ namespace Staj_Proje.Controllers
 
         public IActionResult AbouTMe()
         {
-            var enTiTy_abaouTme = conTexT.mainpage_abouTme.AsQueryable();
-            var model = enTiTy_abaouTme.Select(m => new HomeModels
+            var enTiTy_abaouTme = conTexT.abouTMes.AsQueryable();
+            var model = enTiTy_abaouTme.Select(m => new AbouTMeModels
             {
-                ImageURL = m.ImageURL,
-                TiTle = m.TiTle,
-                subTiTle = m.subTiTle,
-            });
+                mypicTureURL = m.mypicTureURL,
+                abouTme = m.abouTme,
+                myBiography = m.myBiography,
+                myTalenT = m.myTalenT.Select(m => new CaTegoryModels
+                {
+                    caTegoryname = m.caTegoryname,
+                }).ToList()
+            }).FirstOrDefault();
 
             return View(model);
         }
