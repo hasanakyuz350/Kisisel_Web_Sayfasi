@@ -1,25 +1,26 @@
-﻿<header id="banner">
-    <nav>
+﻿<link rel="stylesheet" href="~/css/_HeaderCSS.css">
+<header>
+    <nav id="navbarCSS">
         <div>
-            <a href="/Home/AbouTMe">
-                <img src="/image/ben.jpg" alt="Hasan Akyüz" title="Hasan Akyüz" width="100px" height="80px">
+            <a asp-controller="Home" asp-action="Index">
+                <img id="headerimage" src="/image//ben.jpg" alt="Hasan Akyüz" title="Hasan Akyüz">
             </a>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a asp-controller="Home" asp-action="Index">Ana Sayfa</a>
-                </li>
-                <li>
-                    <a asp-controller="MyprojecTs" asp-action="myprojecTIndex">Projelerim</a>
-                </li>
-                <li>
-                    <a asp-controller="Home" asp-action="AbouTMe">Hakkımda</a>
-                </li>
-                <li>
-                    <a asp-controller="ConTacT" asp-action="conTexTIndex">İletişim</a>
-                </li>
-            </ul>
+            <table id="tableCSS">
+                <tr>
+                    <td id="mainpageCSS"> 
+                        <a asp-controller="Home" asp-action="Index">Ana Sayfa</a>
+                    </td>
+                    <td id="myprojectpage">
+                        <a asp-controller="MyprojecTs" asp-action="myprojecTIndex">Projelerim</a>
+                    </td>
+                    <td id ="aboutmepage">
+                        <a asp-controller="Home" asp-action="AbouTMe">Hakkımda</a>
+                    </td>
+                    <td id ="contactpage">
+                        <a asp-controller="ConTacT" asp-action="conTacTIndex">İletişim</a>
+                    </td>
+                </tr>
+            </table>
         </div>
     </nav>
 </header>

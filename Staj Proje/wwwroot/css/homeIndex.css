@@ -1,0 +1,87 @@
+﻿#firsttitle {
+    background-color: green;
+    text-align: center;
+    overflow: hidden;
+}
+
+#seconftitle {
+    background-color: brown;
+    overflow: hidden;
+}
+
+    #seconftitle h1 {
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #seconftitle p {
+        width: max-content;
+        height: max-content;
+        background-color: whitesmoke;
+        float: left;
+        margin: 30px;
+    }
+
+    #seconftitle img {
+        margin-bottom: 60px;
+        margin-left: 10px;
+        float: left;
+        width;
+        220px;
+        height: 220px;
+    }
+
+    #seconftitle a {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: darkcyan;
+        position: relative;
+        left: 90px;
+        bottom: 35px;
+    }
+
+#thirdtitle {
+    background-color: yellow;
+    overflow: hidden;
+}
+
+    #thirdtitle h1 {
+        text-align: center;
+    }
+
+    #thirdtitle h3 {
+        text-align:center;
+        margin-top:50px;
+    }
+
+    #thirdtitle p {
+        border-style: solid;
+        width:max-content;
+        height:max-content;
+        float:left;
+        margin: 50px;
+    }
+
+    #thirdtitle img {
+        float: right;
+        width:500px;
+        height: 500px;
+        margin-bottom: 60px;
+        margin-right: 20px;
+    }
+    #thirdtitl a{
+        text-align:center;
+        margin-top:200px;
+    }
+
+#fourthtitle {
+    background-color: pink;
+    overflow: hidden;
+}
+    #fourthtitle h1{
+        text-align:center;
+    }
+    #fourthtitle img{
+        border-style:solid;
+        position:center;
+    }

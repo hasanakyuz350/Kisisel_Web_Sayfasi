@@ -6,7 +6,6 @@
         public string subTiTle { get; set; }
         public string? ImageURL { get; set; }
         public string shortabouTme { get; set; }
-        public List<int> TopprojecT { get; set; }
         public List<MyprojecTModels> mylasTprojecT { get; set; }
     }
 }

@@ -41,9 +41,6 @@ namespace Staj_Proje.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("mybiographyURL")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("mypicTureURL")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -70,9 +67,6 @@ namespace Staj_Proje.Migrations
                     b.Property<string>("caTegoryname")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("mayDeleTed")
-                        .HasColumnType("bit");
 
                     b.HasKey("caTegoryID");
 
@@ -181,13 +175,6 @@ namespace Staj_Proje.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("TopprojecT")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("mypicTureURL")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("shortabouTme")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -231,9 +218,6 @@ namespace Staj_Proje.Migrations
 
                     b.Property<int>("homeID")
                         .HasColumnType("int");
-
-                    b.Property<bool>("mayDeleTed")
-                        .HasColumnType("bit");
 
                     b.Property<string>("projecTImageURl")
                         .IsRequired()

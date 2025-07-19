@@ -120,9 +120,7 @@ C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecT
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.RazorAssemblyInfo.cache
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.RazorAssemblyInfo.cs
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.sourcelink.json
-C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\bundle\Staj Proje.styles.css
-C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\scopedcss\projectbundle\Staj Proje.bundle.scp.css
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.development.json
@@ -133,3 +131,9 @@ C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecT
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.pdb
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\Staj Proje.genruntimeconfig.cache
 C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\ref\Staj Proje.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\MailKit.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\MimeKit.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\hasan\OneDrive\OneDrive\Belgeler\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

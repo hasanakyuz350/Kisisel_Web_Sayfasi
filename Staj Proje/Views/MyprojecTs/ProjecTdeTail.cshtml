@@ -18,7 +18,7 @@
         </thead>
         <tbody>
             <tr>
-                <td>@Model.myprojecT.projecTImageURl</td>
+                <td><img src="/image//@Model.myprojecT.projecTImageURl" /></td>
                 <td>@Model.myprojecT.caTegory</td>
                 <td>@Model.myprojecT.TiTle</td>
                 <td>@Model.myprojecT.descripTion</td>
@@ -34,10 +34,10 @@
                     }
                 <td>
                     <form asp-controller="MyprojecTs" asp-action="ProjecTdeTail" method="post">
-                        <input type="hidden" name="projecTID" value="@Model.myprojecT.projecTID" />
+                        <input type="hidden" name="CommenTs.projecTID" value="@Model.myprojecT.projecTID" />
                         <ul><input type="text" name="CommenTs.auThorname" value="@Model.CommenTs.auThorname" /> Isim</ul>
                         <ul><input type="text" name="CommenTs.auThorsurname" value="@Model.CommenTs.auThorsurname" /> Soyisim</ul>
-                        <ul><input type="email" name="CommenTs.auThormail" value="@Model.CommenTs.auThormail" />  Mail</ul>
+                        <ul><input type="text" name="CommenTs.auThormail" value="@Model.CommenTs.auThormail" />  Mail</ul>
                         <ul><input type="text" name="CommenTs.auThormessage" value="@Model.CommenTs.auThormessage" />  Mesaj</ul>
                         <button type="submit">Gönder</button>
                     </form>
@@ -50,11 +50,12 @@
 <aside>
     <div>
         <a href="https://github.com/hasanakyuz350">
-            <img src="image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+            <img src="/image//siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
         </a>
         <a href="https://www.linkedin.com/in/hasan-akyuz/">
-            <img src="image/LinkedIn.png"
+            <img src="/image//LinkedIn.png"
                  alt="LinkedIn" title="LinkedIn">
         </a>
+        <a asp-controller="ConTacT" asp-action="conTacTIndex">Bana mail gönder</a>
     </div>
 </aside>

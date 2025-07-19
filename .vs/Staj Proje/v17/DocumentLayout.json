@@ -3,38 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\controllers\\myprojectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\controllers\\myprojectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\models\\aboutmemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\models\\aboutmemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\models\\commentmyprojectmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\models\\commentmyprojectmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\views\\myprojects\\myprojectindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\views\\myprojects\\myprojectindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\views\\myprojects\\projectdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\views\\myprojects\\projectdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|c:\\users\\hasan\\onedrive\\onedrive\\belgeler\\ben\\projeler\\visual studio ide projects\\staj proje\\staj proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2761895C-7173-44D6-A418-E909C06294AB}|Staj Proje\\Staj Proje.csproj|solutionrelative:staj proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -46,124 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Program.cs",
               "RelativeDocumentMoniker": "Staj Proje\\Program.cs",
               "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Program.cs",
               "RelativeToolTip": "Staj Proje\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T14:39:31.567Z",
+              "WhenOpened": "2025-07-18T12:18:16.823Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Staj Proje\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:39:04.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbconTexT.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\DaTa\\dbconTexT.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\DaTa\\dbconTexT.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\DaTa\\dbconTexT.cs",
-              "RelativeToolTip": "Staj Proje\\DaTa\\dbconTexT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:38:53.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AbouTMeModels.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Models\\AbouTMeModels.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\Models\\AbouTMeModels.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Models\\AbouTMeModels.cs",
-              "RelativeToolTip": "Staj Proje\\Models\\AbouTMeModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:37:46.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConTacTController.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\ConTacTController.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\Controllers\\ConTacTController.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\ConTacTController.cs",
-              "RelativeToolTip": "Staj Proje\\Controllers\\ConTacTController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:26:59.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyprojecTsController.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\MyprojecTsController.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\Controllers\\MyprojecTsController.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Controllers\\MyprojecTsController.cs",
-              "RelativeToolTip": "Staj Proje\\Controllers\\MyprojecTsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T08:30:17.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommenTmyprojecTModels.cs",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Models\\CommenTmyprojecTModels.cs",
-              "RelativeDocumentMoniker": "Staj Proje\\Models\\CommenTmyprojecTModels.cs",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Models\\CommenTmyprojecTModels.cs",
-              "RelativeToolTip": "Staj Proje\\Models\\CommenTmyprojecTModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T14:32:30.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "myprojecTIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Views\\MyprojecTs\\myprojecTIndex.cshtml",
-              "RelativeDocumentMoniker": "Staj Proje\\Views\\MyprojecTs\\myprojecTIndex.cshtml",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Views\\MyprojecTs\\myprojecTIndex.cshtml",
-              "RelativeToolTip": "Staj Proje\\Views\\MyprojecTs\\myprojecTIndex.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T14:36:49.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProjecTdeTail.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Views\\MyprojecTs\\ProjecTdeTail.cshtml",
-              "RelativeDocumentMoniker": "Staj Proje\\Views\\MyprojecTs\\ProjecTdeTail.cshtml",
-              "ToolTip": "C:\\Users\\hasan\\OneDrive\\OneDrive\\Belgeler\\Ben\\Projeler\\Visual STudio IDE ProjecTs\\Staj Proje\\Staj Proje\\Views\\MyprojecTs\\ProjecTdeTail.cshtml",
-              "RelativeToolTip": "Staj Proje\\Views\\MyprojecTs\\ProjecTdeTail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T10:09:27.722Z",
               "EditorCaption": ""
             }
           ]

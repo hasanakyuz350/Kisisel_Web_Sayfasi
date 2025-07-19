@@ -5,7 +5,7 @@
 <article>
     <div>
         <h1>Ben Kimim?</h1>
-        <img src="/image//ben.jpg" />
+        <img src="/image//@Model.mypicTureURL" />
         <p>@Model.abouTme</p>
     </div>
 
@@ -15,7 +15,7 @@
             <p>@Model.myBiography</p>
         </div>
         <div>
-            <a href="/MyprojecT/Index">Projelerimi Görmeye Ne Dersiniz?</a>
+            <a asp-controller="MyprojecTs" asp-action="myprojectIndex" ">Projelerimi Görmeye Ne Dersin?</a>
         </div>
     </div>
 
@@ -25,7 +25,6 @@
         {
             <h3>@myTalenT.caTegoryname</h3>
         }
-        <button type="submit">Daha Fazla</button>
     </div>
 </article>
 
@@ -33,11 +32,12 @@
     <div>
         <h1>Sosyala Medya Hesaplarım</h1>
         <a href="https://github.com/hasanakyuz350">
-            <img src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+            <img src="/image//siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
         </a>
         <a href="https://www.linkedin.com/in/hasan-akyuz/">
-            <img src="/image/LinkedIn.png" alt="LinkedIn" title="LinkedIn">
+            <img src="/image//LinkedIn.png"
+                 alt="LinkedIn" title="LinkedIn">
         </a>
-        <a href="#">Bana E-mail gönder</a>
+        <a asp-controller="ConTacT" asp-action="conTacTIndex">Bana mail gönder</a>
     </div>
 </aside>

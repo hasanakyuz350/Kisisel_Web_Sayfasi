@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Hasan Akyüz";
+}
+<artical>
+    <h1>Bana Ulas</h1>
+    <table>
+        <thead style="border-style:solid">
+            <tr style="width: 30px">
+                <th>Isim</th>
+            </tr>
+            <tr style="width: 30px">
+                <th>Soysim</th>
+            </tr>
+            <tr style="width: 30px">
+                <th>mail</th>
+            </tr>
+            <tr style="width: 30px">
+                <th>Konu</th>
+            </tr>
+            <tr style="width: 30px">
+                <th>Mesaj</th>
+            </tr>
+            <tr style="width:30px">
+                <th>Gonderilme Zamani</th>
+            </tr>
+            <tr style="width: 100px">
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <form asp-controller="ConTacT" asp-action="conTacTIndex" method="post">
+            <tr>
+                <td><input type="text" name="firsTname" /></td>
+                <td><input type="text" name="lasTname" /></td>
+                <td><input type="text" name="email" /></td>
+                <td><input type="text" name="subjecT" /></td>
+                <td><input type="text" name="message" /></td>
+                <td><input type="submit" name="" value="Gönder" /></td>
+            </tr>
+            </form>
+        </tbody>
+
+    </table>
+
+</artical>
+
+<aside>
+    <div>
+        <h1>Sosyala Medya Hesaplarım</h1>
+        <a href="https://github.com/hasanakyuz350">
+            <img src="/image//siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+        </a>
+        <a href="https://www.linkedin.com/in/hasan-akyuz/">
+            <img src="/image//LinkedIn.png"
+                 alt="LinkedIn" title="LinkedIn">
+        </a>
+    </div>
+</aside>

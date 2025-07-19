@@ -21,14 +21,18 @@ namespace Staj_Proje.Controllers
                 TiTle = m.TiTle,
                 subTiTle = m.subTiTle,
                 shortabouTme = m.shortabouTme,
+                ImageURL = m.ImageURL
             }).FirstOrDefault();
             var enTiTy_myprojecT = conTexT.myprojecTs.OrderBy(m => m.projecTID).Take(3).Select(m => new MyprojecTModels
             {
+                projecTImageURl = m.projecTImageURl,
                 TiTle = m.TiTle,
                 shorTdecripTion = m.shorTdecripTion
             }).ToList();
             var enTiTy_mylasTprojecT = conTexT.myprojecTs.OrderByDescending(m => m.projecTID).Select(m => new MyprojecTModels
             {
+                projecTID = m.projecTID,
+                projecTImageURl = m.projecTImageURl,
                 TiTle = m.TiTle,
                 shorTdecripTion = m.shorTdecripTion
             }).FirstOrDefault();

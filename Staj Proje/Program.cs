@@ -1,9 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using Staj_Proje.DaTa;
+using Staj_Proje.MailServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<dbconTexT>(opTions => opTions.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<Mailsender>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

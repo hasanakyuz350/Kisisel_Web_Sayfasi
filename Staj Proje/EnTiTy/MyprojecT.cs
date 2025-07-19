@@ -22,6 +22,5 @@ namespace Staj_Proje.EnTiTy
         public string? caTegory { get; set; }
         //admin
         public DateTime? updaTeTime { get; set; }
-        public bool mayDeleTed { get; set; }
     }
 }

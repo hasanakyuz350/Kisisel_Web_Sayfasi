@@ -2,48 +2,45 @@
 @{
     ViewData["Title"] = "Hasan Akyüz";
 }
+<link rel="stylesheet" href="~/css/homeIndex.css">
 <article>
     <div>
-        <div>
+        <div id="firsttitle">
             <h1>Sayfama Hos Geldiniz</h1>
             <h3>@Model.homemodel.TiTle</h3>
             <h4>@Model.homemodel.subTiTle</h4>
             <h5>@Model.homemodel.shortabouTme</h5>
-            <a href="/Home/AbouTMe">Daha Fazla</a>
         </div>
     </div>
 
-    <div>
+    <div id="seconftitle">
         <h1>Ben Kimim?</h1>
-        <img src="/image//ben.jpg" />
+        <img src="/image//@Model.homemodel.ImageURL" />
         <p>@Model.homemodel.shortabouTme</p>
-        <a href="#">Daha Fazla</a>
+        <a asp-controller="Home" asp-action="AbouTMe">Daha Fazla</a>
     </div>
 
-    <div>
+    <div id="thirdtitle">
         <h1>Eklenen Son Projem</h1>
         @if (Model.mylasTprojecT != null)
         {
-            <a href="#">
-                <img src="/image/ben.jpg" />
-            </a>
+            <img src="/image//@Model.mylasTprojecT.projecTImageURl" />
+
             <h3>@Model.mylasTprojecT.TiTle</h3>
             <p>@Model.mylasTprojecT.shorTdecripTion</p>
         }
-        <button type="submit">Daha Fazla</button>
+            <a id="thirdtitlea" asp-controller="MyprojecTs" asp-action="ProjecTdeTail" asp-route-myprojecTID="@Model.mylasTprojecT.projecTID">Daha Fazla</a>
     </div>
 
-    <div>
+    <div id="fourthtitle">
         <h1>Bazı Yapılan Projelerim</h1>
         @foreach (var myprojecT in Model.myprojecTmodel)
         {
-            <a href="#">
-                <img src="/image/ben.jpg" />
-            </a>
+            <img src="/image//@myprojecT.projecTImageURl" alt="@myprojecT.TiTle" />
             <h3>@myprojecT.TiTle</h3>
             <p>@myprojecT.shorTdecripTion</p>
         }
-        <button type="submit">Daha Fazla</button>
+        <a asp-controller="MyprojecTs" asp-action="myprojecTIndex">Daha Fazla</a>
     </div>
 </article>
 
@@ -51,11 +48,12 @@
     <div>
         <h1>Sosyala Medya Hesaplarım</h1>
         <a href="https://github.com/hasanakyuz350">
-            <img src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+            <img src="/image//siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
         </a>
         <a href="https://www.linkedin.com/in/hasan-akyuz/">
-            <img src="/image/LinkedIn.png" alt="LinkedIn" title="LinkedIn">
+            <img src="/image//LinkedIn.png"
+                 alt="LinkedIn" title="LinkedIn">
         </a>
-        <a href="#">Bana E-mail gönder</a>
+        <a asp-controller="ConTacT" asp-action="conTacTIndex">Bana mail gönder</a>
     </div>
 </aside>

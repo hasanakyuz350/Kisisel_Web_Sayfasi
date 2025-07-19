@@ -4,6 +4,6 @@
     {
         public MyprojecTModels myprojecT { get; set; }
         public CommenTModels CommenTs { get; set; } = new CommenTModels();
-        public List<CommenTModels> commenTs { get; set; }
+        public List<CommenTModels> commenTs { get; set; } = new List<CommenTModels>();
     }
 }

@@ -13,11 +13,12 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                @foreach (var m in Model)
-                {
+            @foreach (var m in Model)
+            {
+                <tr>
                     <td>@m.projecTID</td>
-                    <td>@m.projecTImageURl</td>
+                    <td>
+                    <td><img src="/image//@m.projecTImageURl" /></td>
                     <td>@m.TiTle</td>
                     <td>@m.shorTdecripTion</td>
                     <td>
@@ -26,21 +27,22 @@
                             <button type="submit">Daha Fazla</button>
                         </form>
                     </td>
-                }
-            </tr>
+                </tr>
+            }
         </tbody>
     </table>
 </article>
 
 <aside>
     <div>
+        <h1>Sosyala Medya Hesaplarım</h1>
         <a href="https://github.com/hasanakyuz350">
-            <img id="ikon"
-                 src="/image/siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
+            <img src="/image//siyah-beyaz-giThubs.png" alt="GiThubs" title="GiThubs">
         </a>
         <a href="https://www.linkedin.com/in/hasan-akyuz/">
-            <img id="ikon" src="/image/LinkedIn.png"
+            <img src="/image//LinkedIn.png"
                  alt="LinkedIn" title="LinkedIn">
         </a>
+        <a asp-controller="ConTacT" asp-action="conTacTIndex">Bana mail gönder</a>
     </div>
 </aside>

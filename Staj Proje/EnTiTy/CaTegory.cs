@@ -13,6 +13,5 @@ namespace Staj_Proje.EnTiTy
         public AbouTMe AbouTMe { get; set; }
         //admin
         public DateTime? UpdaTeTime { get; set; }
-        public bool mayDeleTed { get; set; }
     }
 }

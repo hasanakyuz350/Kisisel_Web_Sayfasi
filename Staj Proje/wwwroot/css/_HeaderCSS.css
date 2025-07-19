@@ -1,0 +1,28 @@
+﻿#headerimage{
+    width:30px;
+    height:30px;
+    position:relative;
+    top:20px;
+    left:20px;
+}
+#navbarCSS {
+    border-color:aquamarine;
+    background-color:aqua;
+    border-style:solid;
+}td{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border-color: blue;
+    background-color: green;
+    margin: 3px;
+    padding-top: 3px;
+    position: relative;
+    left: 980px;
+    bottom:20px;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;

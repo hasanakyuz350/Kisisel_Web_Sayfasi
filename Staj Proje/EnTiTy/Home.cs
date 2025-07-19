@@ -13,9 +13,7 @@ namespace Staj_Proje.EnTiTy
         public string shortabouTme { get; set; }
         //1-N
         public List<MyprojecT> mylasTprojecT { get; set; } = new();
-        public List<int> TopprojecT { get; set; }
         //admin
-        public string? mypicTureURL { get; set; }
         public DateTime updaTeTime { get; set; }
     }
 }

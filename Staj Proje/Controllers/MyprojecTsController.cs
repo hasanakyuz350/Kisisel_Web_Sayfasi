@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Staj_Proje.DaTa;
 using Staj_Proje.EnTiTy;
@@ -48,7 +49,7 @@ namespace Staj_Proje.Controllers
                 auThorname = m.auThorname,
                 auThorsurname = m.auThorsurname,
                 auThormessage = m.auThormessage,
-                wriTeTime = DateTime.Now
+                wriTeTime = m.wriTeTime
             }).ToList();
             var model = new CommenTmyprojecTModels()
             {
@@ -59,7 +60,7 @@ namespace Staj_Proje.Controllers
             return View(model);
         }
         [HttpPost]
-        public IActionResult ProjecTdeTail(CommenTmyprojecTModels _auThor, int projecTID)
+        public IActionResult ProjecTdeTail(CommenTmyprojecTModels _auThor)
         {
             if (_auThor == null)
             {
@@ -68,17 +69,18 @@ namespace Staj_Proje.Controllers
 
             var auThor = new CommenT()
             {
-                projecTID = projecTID,
+                projecTID = _auThor.CommenTs.projecTID,
                 auThorname = _auThor.CommenTs.auThorname,
                 auThorsurname = _auThor.CommenTs.auThorsurname,
                 auThormail = _auThor.CommenTs.auThormail,
-                auThormessage = _auThor.CommenTs.auThormessage
+                auThormessage = _auThor.CommenTs.auThormessage,
+                wriTeTime = DateTime.Now
             };
 
             conTexT.Add(auThor);
             conTexT.SaveChanges();
 
-            return View();
+            return RedirectToAction(nameof(ProjecTdeTail), new { myprojecTID = _auThor.CommenTs.projecTID });
         }
     }
 }

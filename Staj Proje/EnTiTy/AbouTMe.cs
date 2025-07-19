@@ -13,6 +13,5 @@ namespace Staj_Proje.EnTiTy
         public string mypicTureURL { get; set; }
         //admin
         public DateTime? UpdaTeTime { get; set; }
-        public string? mybiographyURL { get; set; }
     }
 }
