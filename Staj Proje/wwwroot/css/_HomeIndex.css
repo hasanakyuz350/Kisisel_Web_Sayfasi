@@ -1,0 +1,318 @@
+﻿#firsttitle {
+    width: 100%;
+    height: 100%;
+    background-color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    #firsttitle .linkCSS {
+        margin: 0px 0px 75px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    #firsttitle h1 {
+        color: #ced4da;
+        margin: 100px 0px 50px 0px;
+        flex: 1 1 100%;
+        font-size: 150px;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+        #firsttitle h1:hover {
+            transform: scale(1.05);
+        }
+
+    #firsttitle h3 {
+        color: #adb5bd;
+        margin: 50px 0px 50px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1 1 100%;
+        font-size: 50px;
+        text-align: center;
+    }
+
+        #firsttitle h3::after {
+            content: '|';
+            animation: blink 0.5s infinite;
+            color: #adb5bd;
+        }
+
+#secondtitle {
+    background-color: #495057;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+    #secondtitle h1 {
+        color: #ced4da;
+        flex: 1 1 100%;
+        text-align: center;
+        order: 0;
+    }
+
+        #secondtitle h1::after {
+            width: 75px;
+            height: 3px;
+            background-color: #adb5bd;
+            border-radius: 3px;
+            margin: 20px auto;
+            display: block;
+            content: "";
+        }
+
+
+    #secondtitle .secondnowrapdivCSS {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        order: 1;
+    }
+
+        #secondtitle .secondnowrapdivCSS p {
+            margin: 30px 10px 0px 10px;
+            padding: 5px;
+            order: 3;
+        }
+
+    #secondtitle .seconddivCSS {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        flex: 0 0 auto;
+        order: 2;
+    }
+
+        #secondtitle .seconddivCSS img {
+            width: 220px;
+            height: 220px;
+            border-radius: 300px;
+            margin: 0px 30px 0px 75px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+            transition: all 0.3s ease-in-out;
+        }
+
+            #secondtitle .seconddivCSS img:hover {
+                transform: scale(1.01);
+            }
+
+        #secondtitle .seconddivCSS a {
+            margin: 20px 0px 0px 145px;
+            padding: 5px;
+        }
+
+#thirdtitle {
+    background-color: #495057;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+    #thirdtitle h1 {
+        color: #ced4da;
+        flex: 1 1 100%;
+        text-align: center;
+        order: 0;
+    }
+
+        #thirdtitle h1::after {
+            width: 75px;
+            height: 3px;
+            background-color: #adb5bd;
+            border-radius: 3px;
+            margin: 20px auto;
+            display: block;
+            content: "";
+        }
+
+    #thirdtitle h3 {
+        color: #ced4da;
+        flex: 1 1 100%;
+        text-align: center;
+        order: 1;
+    }
+
+    #thirdtitle .thirdnowrapdivCSS {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        order: 2;
+    }
+
+        #thirdtitle .thirdnowrapdivCSS p {
+            margin: 30px 30px 0px 10px;
+            padding: 5px;
+        }
+
+    #thirdtitle .thirddivCSS {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        order: 3;
+    }
+
+        #thirdtitle .thirddivCSS img {
+            width: 220px;
+            height: 220px;
+            border-radius: 30px;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+            margin: 0px 75px 0px 0px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #thirdtitle .thirddivCSS img:hover {
+                transform: scale(1.01);
+            }
+
+        #thirdtitle .thirddivCSS a {
+            margin: 20px 0px 20px 70px;
+            padding: 5px;
+        }
+
+#fourthtitle {
+    background-color: #495057;
+    padding: 10px;
+}
+
+    #fourthtitle h1 {
+        color: #ced4da;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+        #fourthtitle h1::after {
+            width: 75px;
+            height: 3px;
+            background-color: #adb5bd;
+            border-radius: 3px;
+            margin: 20px auto;
+            display: block;
+            content: "";
+        }
+
+    #fourthtitle .indexhr {
+        width: 100%;
+        height: 1px;
+        background-color: #adb5bd;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #fourthtitle .fourthtitlebuTTonCSS {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+        #fourthtitle .fourthtitlebuTTonCSS a {
+            margin: 20px 0px 10px 0px;
+            padding: 5px;
+        }
+
+    #fourthtitle .fourthdivCSS {
+        text-align: center;
+    }
+
+        #fourthtitle .fourthdivCSS h3 {
+            color: #ced4da;
+            flex: 1 1 100%;
+            text-align: center;
+        }
+
+        #fourthtitle .fourthdivCSS img {
+            width: 250px;
+            height: 250px;
+            border-radius: 30px;
+            margin: 10px auto;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+            display: block;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #fourthtitle .fourthdivCSS img:hover {
+                transform: scale(1.01);
+            }
+
+        #fourthtitle .fourthdivCSS p {
+            margin: 20px 20px 20px 20px;
+            padding: 10px;
+            display: inline-block;
+        }
+/**/
+.animasyon_hover_buTTon {
+    background-color: #6c757d;
+    border-radius: 10px;
+    color: #adb5bd;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_buTTon:hover {
+        background-color: #ced4da;
+        color: #212529;
+        transform: scale(1.05);
+        box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+    }
+
+.animasyon_hover_TexT {
+    background-color: #adb5bd;
+    border-radius: 10px;
+    color: #343a40;
+    text-align: left;
+    word-break: break-word;
+    flex: 1 1 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_TexT:hover {
+        transform: translateY(-5px);
+    }
+
+.animasyon_hover_seymbol_giThub {
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    margin: 100px 0px 100px 30px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_seymbol_giThub:hover {
+        content: url("/image/GiTHub-black.png");
+        transform: translateY(-5px);
+    }
+
+.animasyon_hover_seymbol_linkedin {
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+    margin: 100px 0px 100px 30px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_seymbol_linkedin:hover {
+        content: url("/image/LinkedIn-black.png");
+        transform: translateY(-5px);
+    }

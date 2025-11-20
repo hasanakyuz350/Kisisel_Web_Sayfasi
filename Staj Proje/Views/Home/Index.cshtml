@@ -1,0 +1,77 @@
+﻿@model HomeProjecTViewModels
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+<link rel="stylesheet" href="~/css/_HomeIndex.css" />
+<article>
+
+    <div id="firsttitle">
+        <h1>@Model.homemodel.TiTle</h1>
+        <h3><span id="animasyonTexT" data-text="@Model.homemodel.subTiTle"></span></h3>
+        <div class="linkCSS">
+            <a href="https://github.com/hasanakyuz350" target="_blank" rel="noopener">
+                <img class="animasyon_hover_seymbol_giThub" src="/image//GiTHub.png" alt="GiThubs" title="GiThubs" />
+            </a>
+            <a href="https://www.linkedin.com/in/hasan-akyuz/" target="_blank" rel="noopener">
+                <img class="animasyon_hover_seymbol_linkedin" src="/image//LinkedIn.png" alt="LinkedIn" title="LinkedIn" />
+            </a>
+        </div>
+    </div>
+
+    <div id="secondtitle">
+        <h1>Ben Kimim?</h1>
+        <div class="secondnowrapdivCSS">
+            <div class="seconddivCSS">
+                <img src="/image//@Model.homemodel.ImageURL" />
+                <a class="animasyon_hover_buTTon" asp-controller="Home" asp-action="AbouTMe">Daha Fazla</a>
+            </div>
+            <p style="white-space: pre-line;" class="animasyon_hover_TexT">@Model.homemodel.shortabouTme</p>
+        </div>
+    </div>
+
+    <div id="thirdtitle">
+        <h1>Eklenen Son Projem</h1>
+        @if (Model.mylasTprojecT != null)
+        {
+            <h3>@Model.mylasTprojecT.TiTle</h3>
+            <div class="thirdnowrapdivCSS">
+                <p style="white-space: pre-line;" class="animasyon_hover_TexT">@Model.mylasTprojecT.shorTdecripTion</p>
+                <div class="thirddivCSS">
+                    <img src="/image//@Model.mylasTprojecT.projecTImageURl" />
+                    <a class="animasyon_hover_buTTon" asp-controller="MyprojecTs" asp-action="ProjecTdeTail" asp-route-myprojecTID="@Model.mylasTprojecT.projecTID">Daha Fazla</a>
+                </div>
+            </div>
+        }
+    </div>
+
+    @{
+        int sayac = 1;
+    }
+    <div id="fourthtitle">
+        <h1>Bazı Yapılan Projelerim</h1>
+        @foreach (var myprojecT in Model.myprojecTmodel)
+        {
+            <div class="fourthdivCSS">
+                <h3>@myprojecT.TiTle</h3>
+                <img src="/image//@myprojecT.projecTImageURl" alt="@myprojecT.TiTle" />
+                <p style="white-space: pre-line;" class="animasyon_hover_TexT">@myprojecT.shorTdecripTion</p>
+            </div>
+            @if (sayac != Model.myprojecTmodel.Count)
+            {
+                <hr class="indexhr" />
+            }
+            else
+            {
+                break;
+            }
+            sayac++;
+        }
+        <div class="fourthtitlebuTTonCSS">
+            <a class="animasyon_hover_buTTon" asp-controller="MyprojecTs" asp-action="myprojecTIndex">Daha Fazla</a>
+        </div>
+    </div>
+    @section scripTs {
+        <script src="~/js/animasyon_TexT.js"></script>
+    }
+</article>
+

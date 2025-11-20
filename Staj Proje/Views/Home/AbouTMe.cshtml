@@ -1,0 +1,30 @@
+﻿@model AbouTMeModels
+@{
+    ViewData["Title"] = "Hakkımda";
+}
+<link rel="stylesheet" href="~/css/_AbouTMeCSS.css" />
+<article id="abouTme">
+    <div class="abouTmewhoCSS">
+        <h1 style="">Ben Kimim?</h1>
+        <img src="/image//@Model.mypicTureURL" />
+        <p style="white-space: pre-line;" class="animasyon_hover_TexT">@Model.abouTme</p>
+    </div>
+
+    <div id="abouTmefooTersamezoneCSS">
+        <div class="abouTmefooTerCSS">
+            <div class="abouTmefooTercareerCSS">
+                <h1>Kariyerim Hakkında</h1>
+                <p style="white-space: pre-line;" class="animasyon_hover_TexT">@Model.myBiography</p>
+            </div>
+
+            <div class="abouTmefooTerTalenTCSS">
+                <h1>Yeteneklerim</h1>
+                @foreach (var myTalenT in Model.myTalenT)
+                {
+                    <h3 class="animasyon_hover_h3">@myTalenT.caTegoryname</h3>
+                }
+            </div>
+        </div>
+    </div>
+</article>
+

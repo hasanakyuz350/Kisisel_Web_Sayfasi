@@ -1,0 +1,32 @@
+﻿@model ConTacTModels
+@{
+    ViewData["Title"] = "Mesaj Gönder";
+}
+<link rel="stylesheet" href="~/css/_ConTacTCSS.css" />
+<article id="conTacT">
+    <h1>Mesaj Gönder</h1>
+
+    <form asp-controller="ConTacT" asp-action="conTacTIndex" method="post">
+        <div class="conTacTformCSS">
+            <input asp-for="firsTname" type="text" placeholder="İsim" required />
+            <span asp-validation-for="firsTname"></span>
+
+            <input asp-for="lasTname" type="text" placeholder="Soyisim" required />
+            <span asp-validation-for="lasTname"></span>
+
+            <input asp-for="email" type="text" placeholder="E-posta" />
+            <span asp-validation-for="email"></span>
+
+            <input asp-for="subjecT" type="text" placeholder="Konu" required />
+            <span asp-validation-for="subjecT"></span>
+
+            <textarea asp-for="message" placeholder="Mesaj" required></textarea>
+            <span asp-validation-for="message"></span>
+
+            <button class="animasyon_hover_buTTon" type="submit">Gönder</button>
+        </div>
+    </form>
+    @section scripTs {
+        <script src="~/js/mail_validaTion_conTacT.js"></script>
+    }
+</article>

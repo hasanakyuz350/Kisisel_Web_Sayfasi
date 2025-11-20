@@ -1,0 +1,89 @@
+﻿#myprojecT {
+    background-color: #495057;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+    #myprojecT h3 {
+        color: #ced4da;
+        text-align: center;
+        flex: 1 1 100%;
+    }
+
+    #myprojecT .myprojecThr {
+        width: 100%;
+        height: 1px;
+        background-color: #adb5bd;
+        margin: 30px 0px 30px 0px;
+    }
+
+    #myprojecT .myprojecTdivCSS {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    #myprojecT .myprojecTparTnerCSS {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    #myprojecT .myprojecTCSS {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+        #myprojecT .myprojecTCSS .myprojecTdivCSS img {
+            width: 220px;
+            height: 220px;
+            border-radius: 300px;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+            margin: 0px 50px 0px 100px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #myprojecT .myprojecTCSS .myprojecTdivCSS img:hover {
+                transform: scale(1.01);
+            }
+/**/
+.animasyon_hover_buTTon {
+    background-color: #6c757d;
+    border-radius: 10px;
+    color: #adb5bd;
+    padding: 5px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_buTTon:hover {
+        background-color: #ced4da;
+        color: #212529;
+        transform: scale(1.05);
+        box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+    }
+
+.animasyon_hover_TexT {
+    max-width: 800px;
+    max-height: 300px;
+    background-color: #adb5bd;
+    border-radius: 10px;
+    color: #343a40;
+    padding: 10px;
+    text-align: left;
+    word-break: break-word;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_TexT:hover {
+        transform: translateY(-5px);
+    }

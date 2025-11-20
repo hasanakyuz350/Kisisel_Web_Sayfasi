@@ -1,0 +1,87 @@
+﻿#conTacT {
+    background-color: #495057;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+    #conTacT h1 {
+        font-size: 30px;
+        color: #ced4da;
+        margin: 30px 0px 30px 0px;
+    }
+
+        #conTacT h1::after {
+            width: 75px;
+            height: 3px;
+            background-color: #adb5bd;
+            border-radius: 3px;
+            margin: 20px auto;
+            display: block;
+            content: "";
+        }
+
+    #conTacT .conTacTformCSS {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+        #conTacT .conTacTformCSS input {
+            width: 250px;
+            height: 25px;
+            background-color: #ced4da;
+            border-radius: 10px;
+            color: #6c757d;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            padding: 10px;
+            font-size: 15px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #conTacT .conTacTformCSS input:hover {
+                transform: translateY(-5px);
+            }
+
+        #conTacT .conTacTformCSS textarea {
+            width: 300px;
+            height: 130px;
+            background-color: #ced4da;
+            border-radius: 10px;
+            color: #6c757d;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #ccc;
+            padding: 10px;
+            font-size: 15px;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #conTacT .conTacTformCSS textarea:hover {
+                transform: translateY(-5px);
+            }
+/**/
+.animasyon_hover_buTTon {
+    width: 100px;
+    height: 30px;
+    background-color: #6c757d;
+    border-radius: 10px;
+    color: #adb5bd;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_buTTon:hover {
+        background-color: #ced4da;
+        color: #212529;
+        transform: scale(1.05);
+        box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+    }

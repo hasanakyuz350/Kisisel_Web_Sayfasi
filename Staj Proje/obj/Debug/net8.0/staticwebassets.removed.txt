@@ -1,0 +1,4 @@
+C:\Users\hasan\Documents\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\wwwroot\image\1.jpg
+C:\Users\hasan\Documents\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\wwwroot\image\2.jpg
+C:\Users\hasan\Documents\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\wwwroot\image\gelir_gider.png
+C:\Users\hasan\Documents\Ben\Projeler\Visual STudio IDE ProjecTs\Staj Proje\Staj Proje\wwwroot\image\otobüs_bilet.png

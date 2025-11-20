@@ -1,0 +1,38 @@
+﻿@model List<MyprojecTModels>
+@{
+    ViewData["Title"] = "Projelerim";
+}
+<link rel="stylesheet" href="~/css/_MyProjecTIndex.css" />
+<article>
+    <div id="myprojecT">
+        @{
+            int sayac = 1;
+        }
+        @foreach (var m in Model)
+        {
+            <h3> @m.TiTle</h3>
+            <div class="myprojecTCSS">
+                <div class="myprojecTdivCSS">
+                    <img src="/image//@m.projecTImageURl" />
+                </div>
+                <div class="myprojecTparTnerCSS">
+                    <p style="white-space: pre-line;" class="animasyon_hover_TexT">@m.shorTdecripTion</p>
+                    <form asp-controller="MyprojecTs" asp-action="ProjecTdeTail" method="get">
+                        <input type="hidden" name="myprojecTID" value="@m.projecTID" />
+                        <button class="animasyon_hover_buTTon" type="submit">Daha Fazla</button>
+                    </form>
+                </div>
+            </div>
+
+            @if (sayac != Model.Count)
+            {
+                <hr class="myprojecThr" />
+            }
+            else
+            {
+                break;
+            }
+            sayac++;
+        }
+    </div>
+</article>

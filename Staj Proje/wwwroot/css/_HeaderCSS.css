@@ -1,0 +1,67 @@
+﻿#navbarCSS {
+    background-color: #343a40;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+    #navbarCSS .navbarlinkCSS {
+        color: #ced4da;
+        margin: 0px 0px 0px 50px;
+        font-size: 30px;
+        font-family: 'Arial Narrow';
+        text-decoration: none;
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+
+        #navbarCSS .navbarlinkCSS:hover {
+            transform: scale(1.05);
+        }
+
+    #navbarCSS .divCSS ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+
+    #navbarCSS .divCSS li {
+        width: 120px;
+        height: 25px;
+        background-color: #6c757d;
+        border-radius: 10px;
+        margin: 0px;
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        list-style: none;
+        transition: all 0.3s ease-in-out;
+    }
+
+        #navbarCSS .divCSS li:hover {
+            background-color: #adb5bd;
+            border-radius: 10px;
+            color: #343a40;
+            transform: translateY(-5px);
+            box-shadow: 0px 0px 11px rgba(255, 255, 255, 0.5);
+        }
+
+        #navbarCSS .divCSS li a {
+            width: 120px;
+            height: 25px;
+            color: #adb5bd;
+            font-size: 15px;
+            font-family: 'Arial Narrow';
+            text-decoration: none;
+            display: block;
+            transition: all 0.3s ease-in-out;
+        }
+
+            #navbarCSS .divCSS li a:hover {
+                color: #343a40;
+                transform: scale(1.05);
+            }

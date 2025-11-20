@@ -1,0 +1,54 @@
+﻿#fooTerCSS {
+    background-color: #495057;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #adb5bd;
+    padding: 20px;
+}
+
+    #fooTerCSS .fooTerdivCSS {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        #fooTerCSS .fooTerdivCSS a {
+            color: #adb5bd;
+            margin: 10px;
+            font-family: Georgia;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        #fooTerCSS .fooTerdivCSS p {
+            color: #adb5bd;
+            font-family: Verdana;
+            font-size: 15px;
+        }
+/**/
+.animasyon_hover_seymbol_giThub {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_seymbol_giThub:hover {
+        content: url("/image/GiTHub-black.png");
+        transform: scale(1.1);
+    }
+
+.animasyon_hover_seymbol_linkedin {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .animasyon_hover_seymbol_linkedin:hover {
+        content: url("/image/LinkedIn-black.png");
+        transform: scale(1.1);
+    }

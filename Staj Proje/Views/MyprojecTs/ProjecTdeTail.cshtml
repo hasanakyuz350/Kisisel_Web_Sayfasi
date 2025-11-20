@@ -1,0 +1,112 @@
+﻿@model CommenTmyprojecTModels
+@{
+    ViewData["Title"] = Model.myprojecT.TiTle;
+}
+<link rel="stylesheet" href="~/css/_MyProjecTdeTails.css" />
+<article>
+    <div id="myprojecTdeTails">
+        <h3>@Model.myprojecT.TiTle</h3>
+
+        <div class="myprojecTdeTailsCSS">
+            <div class="myprojecTdeTailsdivCSS">
+                <img class="animasyon_hover_img" src="/image//@Model.myprojecT.projecTImageURl" />
+                <div class="myprojecTdeTailslinkCSS">
+
+                    <div class="animasyon_hover_seymbols">
+                        <img id="giThubbuTTon" src="/image/GiTHub.png" class="animasyon_hover_seymbol_icon" />
+                        <img id="playbuTTon" src="/image/Play.png" class="animasyon_hover_seymbol_icon" />
+                    </div>
+
+                    <div id="video">
+                        <div class="videoscrean">
+                            <button id="close">×</button>
+                            <video id="myprojecTvideo" controls>
+                                <source src="/videos/@Model.myprojecT.demolink" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="myprojecTdeTailsparTnerCSS">
+                <p style="white-space: pre-line;">@Model.myprojecT.descripTion</p>
+            </div>
+        </div>
+
+        <hr class="myprojecTdeTailshr" />
+
+        <div class="myprojecTdeTailssamezoneCSS">
+            <div class="myprojecTdeTailsparTnerfooTerCSS">
+                <h4>Yapılan Yorumlar</h4><br />
+                @foreach (var commen in Model.commenTs)
+                {
+                    <p style="white-space: pre-line;">@commen.auThorname @commen.auThorsurname <br /> @commen.auThormessage<br /> Gonderilme Tarihi @commen.wriTeTime</p>
+                    <br />
+                }
+            </div>
+
+            <div class="myprojecTdeTailsformCSS">
+                <h4><strong>Yorum Yap</strong></h4><br />
+                <form asp-controller="MyprojecTs" asp-action="ProjecTdeTail" method="post">
+                    <input type="hidden" name="CommenTs.projecTID" value="@Model.myprojecT.projecTID" />
+
+                    <input asp-for="@Model.CommenTs.auThorname" type="text" name="CommenTs.auThorname" placeholder="İsim" required /><br />
+                    <span asp-validation-for=@Model.CommenTs.auThorname"></span>
+
+                    <input asp-for="@Model.CommenTs.auThorsurname" type="text" name="CommenTs.auThorsurname" placeholder="Soyisim" required /><br />
+                    <span asp-validation-for=@Model.CommenTs.auThorsurname"></span>
+
+                    <input asp-for="@Model.CommenTs.auThormail" type="text" name="CommenTs.auThormail" placeholder="Mail" /><br />
+                    <span asp-validation-for=@Model.CommenTs.auThormail"></span>
+
+                    <textarea asp-for="@Model.CommenTs.auThormessage" name="CommenTs.auThormessage" placeholder="Mesaj" required></textarea><br />
+                    <span asp-validation-for=@Model.CommenTs.auThormessage"></span>
+
+                    <button type="submit">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    @section scripTs {
+        <script src="~/js/mail_validaTion_commenT.js"></script>
+    }
+</article>
+<script>
+    var play = document.getElementById("playbuTTon");
+    var screan = document.getElementById("video");
+    var video = document.getElementById("myprojecTvideo");
+    var close = document.getElementById("close");
+    var giThub = document.getElementById("giThubbuTTon");
+
+    play.addEventListener("click", () => {
+      screan.style.display = "flex";
+      video.play();
+    });
+
+    close.addEventListener("click", () => {
+      video.pause();
+      video.currentTime = 0;
+      screan.style.display = "none";
+    });
+    window.addEventListener("load", () => {
+      screan.style.display = "none";
+    });
+        giThub.addEventListener("click", function() {
+        window.open("@Model.myprojecT.giThublink", "_blank");
+    });
+        giThub.addEventListener("mouseenter", function () {
+        giThub.src = "/image/GiTHub-black.png";
+    });
+    giThub.addEventListener("mouseleave", function () {
+        giThub.src = "/image/GiTHub.png";
+    });
+
+    play.addEventListener("mouseenter", function () {
+        play.src = "/image/Play-black.png";
+    });
+    play.addEventListener("mouseleave", function () {
+        play.src = "/image/Play.png";
+    });
+</script>
+
+
